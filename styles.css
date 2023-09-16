@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Audiowide&family=Bellota&family=Caveat&family=Libre+Baskerville&family=Lobster&family=Pacifico&family=Poppins:wght@400;500;600&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,7 @@
 .card {
     width: 350px;
     height: 515px;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     perspective: 1000px;
 }
 
@@ -119,6 +118,11 @@
     margin-bottom: 5px;
 }
 
+.back .row a:hover {
+    background-color: #002fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
 .back a img {
     width: 60%;
 }
@@ -126,3 +130,25 @@
 .card:hover .card-inner {
     transform: rotateY(180deg);
 }
+
+.download-btn button {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 9px 10px;
+    font-size: 14px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn button:hover {
+    background-color: #002fff;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
